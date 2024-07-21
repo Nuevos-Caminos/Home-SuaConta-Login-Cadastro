@@ -1,0 +1,16 @@
+.profile-head {
+  transform: translateY(5rem)
+}
+
+.cover {
+  background-image: url(../images/bannerC.jfif);
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+body {
+  background: #3356cc;
+  background: linear-gradient(to right, #43c2e9, #aac4d6);
+  min-height: 100vh;
+  overflow-x:hidden;
+}
