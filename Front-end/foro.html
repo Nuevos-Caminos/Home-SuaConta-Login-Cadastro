@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mapa.css" />
+    <link rel="stylesheet" href="css/Publicacao.css" />
     <style>
       .ie-panel {
         display: none;
@@ -151,6 +153,31 @@
           </nav>
         </div>
       </header>
+
+<!-- Foto em cima  -->
+<section class="section bg-default text-center offset-top-50">
+  <div class="parallax-container" data-parallax-img="images/foro.jpg">
+    <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-2-21">
+      <div class="container">
+        <h2 class="heading-2 oh font-weight-normal wow slideInDown">
+          <span class="d-block font-weight-semi-bold"
+            >Explora el Foro.</span>
+        </h2>
+        <div class="container">
+          <ul class="breadcrumbs-custom-path">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Foro</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Foto em cima  -->
+
+<div class="row">
+</div>
+
       <!-- RD Google Map-->
       <section class="section section-fluid">
         <div
@@ -171,86 +198,118 @@
         </div>
       </section>
 
-      <!-- Contact Form-->
-      <section class="section section-sm section-last bg-default text-left">
-        <div class="container">
-          <article class="title-classic">
-            <div class="title-classic-title">
-              <h3>Get in touch</h3>
+      <!-- Inicio Forum -->
+<section class="section section-sm section-last bg-default text-left">
+  <div class="container">
+    <article class="title-classic d-flex justify-content-between">
+      <!-- Título -->
+      <div class="title-classic-title justify-content-sm-start">
+        <h3>Publicaciones</h3>
+      </div>
+      <!-- Botões e separador -->
+      <div class="title-classic-buttons d-flex align-items-center">
+        <!-- Botão de Nova Publicação -->
+        <button class="btn-nova-publicacao btn-sm d-flex align-items-center me-2">
+          <i class="fa fa-plus"></i> <!-- Usando a classe Font Awesome para o ícone -->
+          <span class="ms-2">Nueva Publicación</span>
+        </button>
+        <!-- Separador -->
+        <div class="separator"></div>
+        <!-- Botão de Filtrar -->
+        <button class="btn btn-primary dropdown-toggle btn-sm d-flex align-items-center ms-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa fa-filter"></i> <!-- Usando a classe Font Awesome para o ícone -->
+          <span class="ms-2">Filtrar</span>
+        </button>
+        <!-- Menu suspenso para filtros -->
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+              <label class="form-check-label" for="checkbox1">Hogar</label>
             </div>
-            <div class="title-classic-text">
-              <p>
-                If you have any questions, just fill in the contact form, and we
-                will answer you shortly.
-              </p>
+          </li>
+          <li>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+              <label class="form-check-label" for="checkbox2">Empleabilidad</label>
             </div>
-          </article>
-          <form
-            class="rd-form rd-form-variant-2 rd-mailform"
-            data-form-output="form-output-global"
-            data-form-type="contact"
-            method="post"
-            action="bat/rd-mailform.php"
-          >
-            <div class="row row-14 gutters-14">
-              <div class="col-md-4">
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-your-name-2"
-                    type="text"
-                    name="name"
-                    data-constraints="@Required"
-                  />
-                  <label class="form-label" for="contact-your-name-2"
-                    >Your Name</label
-                  >
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-email-2"
-                    type="email"
-                    name="email"
-                    data-constraints="@Email @Required"
-                  />
-                  <label class="form-label" for="contact-email-2">E-mail</label>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-phone-2"
-                    type="text"
-                    name="phone"
-                    data-constraints="@Numeric"
-                  />
-                  <label class="form-label" for="contact-phone-2">Phone</label>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-wrap">
-                  <label class="form-label" for="contact-message-2"
-                    >Message</label
-                  >
-                  <textarea
-                    class="form-input textarea-lg"
-                    id="contact-message-2"
-                    name="message"
-                    data-constraints="@Required"
-                  ></textarea>
-                </div>
-              </div>
+          </li>
+          <li>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="checkbox3">
+              <label class="form-check-label" for="checkbox3">Consejos Diarios</label>
             </div>
-            <button class="button button-primary button-pipaluk" type="submit">
-              Send Message
-            </button>
-          </form>
-        </div>
-      </section>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+<!-- Fim Forum -->
+
+<!-- Publicações -->
+<section class="publicacoes-container">
+  <div class="publicacao">
+    <img src="https://via.placeholder.com/300x150" alt="Imagem Publicação 1">
+    <div class="publicacao-content">
+      <span class="publicacao-category">Hogar</span>
+      <h3 class="publicacao-title">Transforma Tu Espacio con Consejos de Decoración Sostenible</h3>
+      <div class="publicacao-icons">
+        <a class="icon-view" title="Visualizar">
+          <i class="fas fa-eye"></i>
+          <span class="icon-number">1500</span>
+        </a>
+        <a class="icon-comment" title="Comentarios">
+          <i class="fas fa-comments"></i>
+          <span class="icon-number">45</span>
+        </a>
+      </div>
+      <p class="publicacao-text">Descubre cómo pequeños cambios pueden crear un ambiente más sostenible y acogedor. Conoce las últimas tendencias en decoración verde.</p>
+      <a href="#">Leer Más</a>
+    </div>
+  </div>
+
+  <div class="publicacao">
+    <img src="https://via.placeholder.com/300x150" alt="Imagem Publicação 2">
+    <div class="publicacao-content">
+      <span class="publicacao-category">Empleabilidad</span>
+      <h3 class="publicacao-title">Cómo Aumentar Tus Posibilidades en Entrevistas de Trabajo</h3>
+      <div class="publicacao-icons">
+        <a class="icon-view" title="Visualizar">
+          <i class="fas fa-eye"></i>
+          <span class="icon-number">2750</span>
+        </a>
+        <a class="icon-comment" title="Comentarios">
+          <i class="fas fa-comments"></i>
+          <span class="icon-number">56</span>
+        </a>
+      </div>
+      <p class="publicacao-text">Descubre cómo prepararte para entrevistas de manera efectiva e impresionar a tus futuros empleadores. Consejos prácticos para destacar tus habilidades y experiencias.</p>
+      <a href="#">Leer Más</a>
+    </div>
+  </div>
+
+  <div class="publicacao">
+    <img src="https://via.placeholder.com/300x150" alt="Imagem Publicação 3">
+    <div class="publicacao-content">
+      <span class="publicacao-category">Consejos Diarios</span>
+      <h3 class="publicacao-title">5 Hábitos Diarios para Aumentar Tu Productividad</h3>
+      <div class="publicacao-icons">
+        <a class="icon-view" title="Visualizar">
+          <i class="fas fa-eye"></i>
+          <span class="icon-number">3200</span>
+        </a>
+        <a class="icon-comment" title="Comentarios">
+          <i class="fas fa-comments"></i>
+          <span class="icon-number">78</span>
+        </a>
+      </div>
+      <p class="publicacao-text">Adopta hábitos simples que pueden transformar tu rutina y ayudarte a alcanzar tus objetivos más rápidamente. Consejos para una vida más productiva y equilibrada.</p>
+      <a href="#">Leer Más</a>
+    </div>
+  </div>
+</section>
+<!-- Publicações -->
 
       <!-- Footer-->
       <footer class="section footer-corporate context-dark">
@@ -270,7 +329,7 @@
                           </div>
                           <div class="unit-body">
                             <a class="link-aemail" href="mailto:#"
-                              >NuevosCaminos@hotmail.org</a>
+                              >nuevoscaminos.02@gmail.com</a>
                           </div>
                         </div>
                       </li>
