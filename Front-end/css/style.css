@@ -3,6 +3,14 @@
 * Trunk version 2.0.0
 */
 /** @group Base */
+#imagem{
+	font-size:18px;
+	background-color: #01b3a7;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
 a:focus,
 button:focus {
 	outline: none !important;
