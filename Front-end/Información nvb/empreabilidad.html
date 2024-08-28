@@ -137,7 +137,7 @@
                       <a class="rd-nav-link" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-expanded="false">Información</a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
                         <a class="dropdown-item" href="hogar.html">Hogar</a>
-                        <a class="dropdown-item active" href="empreabilidad.html">Empreabilidad</a>
+                        <a class="dropdown-item active" href="empreabilidad.html">Empleabilidad</a>
                         <a class="dropdown-item" href="consejos.html">Consejos diarios</a>
                       </div>
                     </li>
@@ -155,7 +155,7 @@
       <section class="breadcrumbs-custom-inset p-0">
         <div class="breadcrumbs-custom context-dark bg-overlay-60">
           <div class="container">
-            <h2 class="breadcrumbs-custom-title">Empreabilidad</h2>
+            <h2 class="breadcrumbs-custom-title">Empleabilidad</h2>
             <ul class="breadcrumbs-custom-path">
             </ul>
           </div>
@@ -172,9 +172,13 @@
             class="row row-40 flex-lg-row-reverse justify-content-xl-between"
           >
             <div class="col-xl-5 d-none d-xl-block">
-              <div class="offset-left-xl-45">
+              <div class="offset-left-xl-45" id="scroll-trigger">
                 <h3>Presentar información</h3>
-                <li><a class="link-active" href="#">scrol trigger</a></li>
+                <li><a class="link-active" href="#2">Lugares para hacer tu CPF</a></li>
+                <li><a class="link-active" href="#3">Cartera de Trabajo</a></li>
+                <li><a class="link-active" href="#4">CRNM y RNM</a></li>
+                <li><a class="link-active" href="#5">Currículum</a></li>
+                
               </div>
             </div>
           </sections>
@@ -199,7 +203,7 @@
 
                     <br><br>El CPF se utiliza para realizar un examen público, inscribirse en la universidad, abrir una cuenta bancaria, firmar una tarjeta de trabajo y se utiliza principalmente para la rendición de cuentas ante el Servicio de Ingresos Federales a través de la declaración de impuestos sobre la renta.
 
-                    <br><br><h4>Lugares para hacer tu CPF:</h4>
+                    <br><br><h4 id="2">Lugares para hacer tu CPF:</h4>
                     <br>Cartório de Registro Civil de Pessoas Naturais;
                     <br><br>Caixa Econômica Federal;
                     <br><br>Correios;
@@ -209,7 +213,7 @@
                 <li>
                   <h3>Cartera de Trabajo</h3>
                   <img src="imagesempre/clt.jpg" width="700" height="700">
-                  <p>
+                  <p id="3">
                     La "Carteira de Trabalho e Previdência Social" (CTPS) es un documento para que los trabajadores trabajen regularmente en el mercado laboral brasileño.
 
                     <br><br>Lo proporciona el Ministerio de Trabajo y Empleo y tiene como objetivo registrar la trayectoria profesional del trabajador, incluidos sus derechos laborales.
@@ -240,7 +244,7 @@
                   <img src="imagesempre/CRNM.png" width="700" height="700">
                   <p>
                     "Carteira de Registro Nacional Migratório" (CRNM) es el documento de identificación de inmigrantes registrados en Brasil, válido en todo el territorio nacional. 
-                    "Registro Nacional Migratório" (RNM) es el número de registro que se encuentra en el CRNM, resultante de la identificación de cada inmigrante a través de su información personal.
+                    "Registro Nacional Migratório" (RNM) es el número de registro que se encuentra en el CRNM, resultante de la identificación de cada inmigrante a través de su <strong id="4">información personal.</strong>
 
                     <br><br>Los inmigrantes con <strong>visa temporal</strong> deberán solicitar el registro dentro de los <strong>90 días</strong>, contados a partir de la fecha de ingreso al territorio nacional.
 
@@ -287,7 +291,8 @@
                     Sirve como una herramienta esencial en la jornada laboral, operando como un documento que presenta las calificaciones, experiencias y habilidades del trabajador.
 
                     <br><br><h4>Información presente en un currículum.</h4><br>
-                    <a id="imagem" href="imagesempre/curriculo.pdf" download>Descargar PDF</a><br>
+                    <a id="imagem" href="imagesempre/curriculo.pdf" download>Descargar PDF</a><br><br>
+                    Este es solo un <strong id="5">ejemplo de currículum simple</strong>, puedes personalizarlo como quieras.
                   </p>
                 </li>
               </ul>
@@ -481,5 +486,9 @@
     <!-- Javascript-->
     <script src="../js/core.min.js"></script>
     <script src="../js/script.js"></script>
+    <script src="../js/empleabilidade.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+
   </body>
 </html>
