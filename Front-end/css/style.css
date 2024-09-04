@@ -3,6 +3,10 @@
 * Trunk version 2.0.0
 */
 /** @group Base */
+#scroll{
+	list-style-type: disclosure-closed;
+}
+
 #imagem{
 	font-size:18px;
 	background-color: #01b3a7;
