@@ -3,6 +3,10 @@
 * Trunk version 2.0.0
 */
 /** @group Base */
+#imgbody{
+	border-radius: 15px;
+}
+
 #scroll{
 	list-style-type: disclosure-closed;
 }
