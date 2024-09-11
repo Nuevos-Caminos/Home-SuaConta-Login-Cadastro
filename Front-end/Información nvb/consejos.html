@@ -173,13 +173,15 @@
             class="row row-40 flex-lg-row-reverse justify-content-xl-between"
           >
             <div class="col-xl-5 d-none d-xl-block">
-              <div class="offset-left-xl-45">
-                <h1>H1 Heading</h1>
-                <h2>H2 Heading</h2>
-                <h3>H3 Heading</h3>
-                <h4>H4 Heading</h4>
-                <h5>H5 Heading</h5>
-                <h6>H6 Heading</h6>
+              <div class="offset-left-xl-45" id="scroll-trigger">
+                <h3>Presentar información</h3>
+                <li id="scroll"><a class="link-active" href="#1">Vacunas</a></li>
+                <li id="scroll"><a class="link-active" href="#2">Festivales brasileños</a></li>
+                <li id="scroll"><a class="link-active" href="#3">Días festivos</a></li>
+                <li id="scroll"><a class="link-active" href="#4">Residencia</a></li>
+                <li id="scroll"><a class="link-active" href="#5">Licencia de conducir</a></li>
+                <li id="scroll"><a class="link-active" href="#6">Inmigrante calificado</a></li>
+                <li id="scroll"><a class="link-active" href="#7">Transporte público</a></li>
               </div>
             </div>
             <div class="col-xl-7">
@@ -226,10 +228,10 @@
                   </p>
                 </li>
                 <li>
-                  <h3>Festivales brasileños más famosos.</h3>
+                  <h3 id="1">Festivales brasileños más famosos.</h3>
                   <img src="imagesconse/junina.jpg" width="700" height="700" id="imgbody">
                   <p>
-                    Las <strong>fiestas juninas</strong> se celebran durante todo el mes de junio, mes de los santos populares: San Antonio, San Juan y San Pedro.
+                    Las <strong id="2">fiestas juninas</strong> se celebran durante todo el mes de junio, mes de los santos populares: San Antonio, San Juan y San Pedro.
 
                     Es una fiesta con diversos tipos de tradiciones, desde la cocina, los bailes de cuadrilla y juegos como la pesca y el correo elegante.
 
@@ -265,7 +267,7 @@
                   <p>
                     Seleccionamos los mejores sitios web para encontrar vivienda en Brasil.
 
-                    <br><br><h4>ZAP Imóveis</h4>
+                    <br><br><h4 id="3">ZAP Imóveis</h4>
                     ZAP Imóveis presenta más de 7 millones de propiedades disponibles en diferentes rincones del país. Además de ventas y alquileres, la web dispone de un área especial para aquellos que quieran adquirir propiedades nuevas, ya sean sobre plano, en construcción o listas para entrar a vivir.
 
                     <br><br><h4>Lello Imóveis</h4>
@@ -274,7 +276,7 @@
                     <br><br><h4>OLX</h4>
                     OLX, una de las mayores plataformas de compra, alquiler y venta online de Brasil, opera en más de 100 países. Varias agencias inmobiliarias utilizan el sitio web para anunciar casas, apartamentos y terrenos que están a la venta. Es posible buscar por categorías y filtrar la búsqueda por estados o barrios.
 
-                    <br><br><h4>Imovelweb</h4>
+                    <br><br><h4 id="4">Imovelweb</h4>
                     Es un portal de listado de propiedades residenciales y comerciales para compra, alquiler e incluso subasta. Con más de 4 millones de anuncios disponibles, el sitio facilita que los agentes inmobiliarios y los compradores potenciales se encuentren presentando un banco de ofertas que incluye propiedades nuevas y usadas.
 
                     <br><br><h4>QuintoAndar</h4>
@@ -289,7 +291,7 @@
                 <li>
                   <h3>Licencia de conducir</h3>
                   <img src="imagesconse/cnh.jpg" height="700" width="700" id="imgbody">
-                  <p>
+                  <p id="5">
                     Si no se cuenta con licencia de conducir, el proceso, regido por la legislación federal de tránsito, válida en todo el país, implica:
                     <br><br>Realización de un reconocimiento médico y evaluación psicológica;
                     <br><br>45 horas de clases teóricas;
@@ -315,7 +317,7 @@
                   </p>
                 </li>
                 <li>
-                  <h3>Transporte público</h3>
+                  <h3 id="6">Transporte público</h3>
                   <p>
                     El transporte público en Brasil siempre ha sido blanco de muchas quejas a lo largo del tiempo. La mayoría de las veces las quejas se refieren a que los vehículos siempre van llenos, al mal estado de los coches y a la baja calidad de los servicios prestados. Estos problemas se sumaron al descontento popular por el aumento de las tarifas de autobús en algunas capitales de Brasil, lo que culminó con una serie de protestas que se han realizado en la mayoría de las capitales de los estados.<br><br>
                     <h4>Tarifas en Rio de Janeiro</h4><br>
@@ -326,7 +328,7 @@
                     <br><br><h4>Tarifas en São Paulo</h4><br>
                     Autobús: <strong>R$4,40</strong>
                     <br><br>Tren: <strong>R$5,00</strong>
-                    <br><br>Metro: <strong>R$5,00</strong>
+                    <br><br>Metro: <strong id="7">R$5,00</strong>
 
                     <br><br><h4>Tarifas en Belo Horizonte</h4><br>
                     Autobús: <strong>R$4,20 o R$4,50</strong>
@@ -531,5 +533,8 @@
     <!-- Javascript-->
     <script src="../js/core.min.js"></script>
     <script src="../js/script.js"></script>
+    <script src="../js/empleabilidade.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
   </body>
 </html>
