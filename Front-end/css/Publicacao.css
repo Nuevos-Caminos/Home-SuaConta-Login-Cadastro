@@ -161,6 +161,13 @@
     font-size: 0.875rem; /* Ajusta o tamanho da fonte dos rótulos */
 }
 
+.title-with-line {
+    display: inline-block; /* Garante que a linha fique logo abaixo do título */
+    border-bottom: 2px solid #01b3a7; /* Linha com espessura e cor */
+    padding-bottom: 5px; /* Ajusta o espaçamento entre o texto e a linha */
+  }
+  
+
 /* Estilo do título da seção */
 .title-classic {
     display: flex;
