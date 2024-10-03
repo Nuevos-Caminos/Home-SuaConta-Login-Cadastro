@@ -3,6 +3,16 @@
 * Trunk version 2.0.0
 */
 /** @group Base */
+#sebrae1{
+	padding-left: 10px;
+}
+
+#sebrae{
+	width: 200px;
+	float: right;
+	margin-right: 10px;
+}
+
 #imgbody{
 	border-radius: 15px;
 }
