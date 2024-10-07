@@ -3,6 +3,11 @@
 * Trunk version 2.0.0
 */
 /** @group Base */
+#brasil{
+	height: 163px;
+	width: 200px;
+}
+
 #sebrae1{
 	padding-left: 10px;
 }
